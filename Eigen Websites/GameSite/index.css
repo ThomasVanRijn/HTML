@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+}
+
+header{
+  background-color: red;
+}
+header img {
+  float: left;
+}
+header h1 {
+  font-size: 36pt;
+  font-family: calibri;
+  float: left;
+}
