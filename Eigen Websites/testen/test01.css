@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+
+header {
+  background-color: lightblue;
+  width: 500px;
+  margin: auto;
+  margin-top: 10px;
+}
+header h1 {
+  text-align: center;
+}
+
+nav {
+  background-color: lightblue;
+  width: 500px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+}

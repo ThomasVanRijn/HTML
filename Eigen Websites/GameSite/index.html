@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <title>Games</title>
+    <title>Gamepedia</title>
     <meta charset="utf-8">
     <link rel="icon" type="image/ico" href="img/Logo 3.2.png" />
     <link rel="stylesheet" type="text/css" href="index.css">
@@ -10,9 +10,19 @@
     <header>
       <nav>
         <a class="active" href="#">HOME</a>
-        <a href="genre.html">GENRE</a>
+        <div class="dropdown">
+          <button class="dropbtn">GENRE ▼</button>
+          <div class="dropdown-content">
+            <a href="genres/action.html">ACTION</a>
+            <a href="genres/adventure.html">ADVENTURE</a>
+            <a href="genres/horror.html">HORROR</a>
+            <a href="genres/openWorld.html">OPEN WORLD</a>
+            <a href="genres/racing.html">RACING</a>
+          </div>
+        </div>
         <a href="games.html">GAMES</a>
       </nav>
+
       <img src="img/Logo 3.0.png">
     </header>
 
@@ -20,7 +30,8 @@
       <h1>TOP GAMES</h1>
       <div class="rij1">
         <a href="GamePages/fortnite.html"><img src="img/poster/Fortnite.png" title="Fortnite"></a>
-        <img src="img/poster/Red Dead Redemption 2.png" title="Red Dead Redemption 2">
+        <a href="GamePages/RedDeadRedemption2.html"><img src="img/poster/Red Dead Redemption 2.png" title="Red Dead Redemption 2"></a>
+
         <img src="img/poster/God of War.png" title="God of War">
       </div>
       <div class="rij2">
@@ -28,7 +39,11 @@
         <img src="img/poster/Spider-man.png" title="Spider-man">
         <img src="img/poster/Ori and the Will of the Wisps.png" title="Ori and the Will of the Wisps">
       </div>
-
     </article>
+
+    <footer>
+      <h1>©Copyright 2019 | Gamepedia</h1>
+    </footer>
+
   </body>
 </html>
