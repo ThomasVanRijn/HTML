@@ -48,7 +48,14 @@ header h1 {
   display: ;
   margin-top: 500px;
 }
+<<<<<<< HEAD
 header #headerImage {
   display: block;
   margin: auto;
+=======
+header img {
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+>>>>>>> 91c0dc6c35fc949c9a84bd96499d8b0f7d8dbf35
 }
