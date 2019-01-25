@@ -82,19 +82,19 @@ article h1, #GameName {
 
   text-align: center;
 }
-.rij1, .rij2 {
-  background-color: #24334c;
+.row{
+  /* background-color: red; */
   width: 940px;
   margin: auto;
-  height: 430px;
+  height: 400px;
 }
-.rij1 img, .rij2 img {
+/* .rij1 img, .rij2 img {
   box-shadow: 0px 0px 50px black;
   float: left;
   width: 205px;
   margin: 20px 15px 0px 15px;
   box-sizing: border-box;
-}
+} */
 /* article img:hover {
   width: 210px;
   margin-left: 12.5px;
