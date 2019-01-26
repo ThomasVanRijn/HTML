@@ -3,9 +3,7 @@
 }
 
 body {
-  background-image: url(../img/HeaderIMG.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+
 }
 
 nav {
@@ -25,6 +23,7 @@ nav a {
   color: #2a2a44;
   display: inline-block;
   padding: 20px 30px 20px 30px;
+  transition: 0.5s;
 }
 nav a:hover {
   background-color: #2a2a44;
@@ -32,10 +31,13 @@ nav a:hover {
 }
 
 header {
-  /* background-image: url(../img/HeaderIMG.png); */
+  background-image: url(../img/HeaderIMG.png);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  height: 865px;
+  width: 100%;
+  height: 515px;
+  padding-top: 350px
 }
 header h1 {
   /* background-color: red; */
@@ -45,17 +47,13 @@ header h1 {
   text-shadow: 0 0 50px black;
   color: white;
   text-align: center;
-  display: ;
-  margin-top: 500px;
+  max-width: 900px;
+  margin: auto;
 }
-<<<<<<< HEAD
-header #headerImage {
-  display: block;
-  margin: auto;
-=======
 header img {
+  /* background-color: red; */
   display: block;
   margin: auto;
-  margin-bottom: 50px;
->>>>>>> 91c0dc6c35fc949c9a84bd96499d8b0f7d8dbf35
+  margin-top: 300px;
+  transition: 1s;
 }

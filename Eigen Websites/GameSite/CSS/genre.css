@@ -21,6 +21,7 @@ header nav a, .dropbtn {
   font-size: 36px;
   color: #24334c;
   padding: 0 15px;
+  transition: 0.3s;
 }
 header nav a:hover {
   background-color: #24334c;
@@ -82,6 +83,8 @@ article h1, #GameName {
 
   text-align: center;
 }
+
+
 .newRow{
   /* background-color: red; */
   width: 940px;
@@ -103,6 +106,7 @@ article h1, #GameName {
   height: 375px;
   margin: 10px 17px 0 18px;
   float: left;
+  transition: 0.3s;
 }
 .gameWrapper:hover {
   width: 205px;
