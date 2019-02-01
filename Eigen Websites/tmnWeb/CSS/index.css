@@ -1,11 +1,11 @@
 * {
   margin: 0;
+  padding: 0;
+  font-family: Bebas Neue Regular;
 }
-
 body {
-
+  height: 2000px;
 }
-
 nav {
   background-color: white;
   text-align: center;
@@ -24,6 +24,8 @@ nav a {
   display: inline-block;
   padding: 20px 30px 20px 30px;
   transition: 0.5s;
+
+  transform: translate(-70px, 0);
 }
 nav a:hover {
   background-color: #2a2a44;
@@ -56,4 +58,32 @@ header img {
   margin: auto;
   margin-top: 300px;
   transition: 1s;
+}
+main {
+  width: 900px;
+  height: 500px;
+  /* background-color: lightblue; */
+  margin: auto
+}
+main h1 {
+  font-size: 70pt;
+  text-align: center;
+  margin-top: 10px;
+  color: #2a2a44;
+}
+main .pakket {
+  width: 250px;
+  height: 250px;
+  background-color: #2a2a44;
+  display: inline-block;
+  position: relative;
+  left: 4.8%;
+
+  margin: 50px 80px;
+
+}
+main h3 {
+  font-size:
+  color: white;
+  text-align: center;
 }
