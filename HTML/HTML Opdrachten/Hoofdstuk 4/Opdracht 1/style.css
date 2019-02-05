@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+}
+
+p {
+  font-family: Calibri;
+  color: #5e5c56;
+}
+ul {
+  font-family: Calibri;
+  color: #5e5c56;
+  list-style-type: square;
+}
+
+ol {
+  font-family: Calibri;
+  color: #5e5c56;
+  list-style-type: lower-greek;
+}
+
+h1, h2, h3 {
+  font-family: Arial;
+  color: #c0cb7f;
+}
+
+a{
+  text-decoration: none;
+  color: #677f51;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+table {
+  border: 1px solid #a64626;
+  background-color: #222222;
+  font-weight: bold;
+  text-align: center;
+  width: 250px;
+}

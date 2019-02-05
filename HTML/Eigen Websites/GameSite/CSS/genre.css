@@ -1,0 +1,189 @@
+* {
+  margin: 0px;
+}
+.active {
+  color: white;
+  background-color: #24334c;
+}
+header{
+  background-color: #24334c;
+  width: 100%;
+  height: 500px;
+}
+header nav {
+  height: 50px;
+  background-color: white;
+  text-align: center;
+}
+header nav a, .dropbtn {
+  text-decoration: none;
+  font-family: arial black;
+  font-size: 36px;
+  color: #24334c;
+  padding: 0 15px;
+  transition: 0.3s;
+}
+header nav a:hover {
+  background-color: #24334c;
+  color: white;
+}
+.dropbtn {
+  border: none;
+  background-color: inherit;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 217px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 18pt;
+  text-align: left;
+}
+.dropdown:hover .dropbtn {
+  background-color: #24334c;
+  color: white;
+}
+.dropdown-content a:hover {
+  background-color: #d1d1d1;
+  color: black;
+}
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+header img {
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+}
+article {
+  width: 940px;
+  /* background-color: red; */
+  margin: auto;
+  padding
+
+}
+article h1, #GameName {
+  font-family: arial black;
+  margin: auto;
+  font-size: 52px;
+  color: #24334c;
+
+  text-align: center;
+}
+
+
+.newRow{
+  /* background-color: red; */
+  width: 940px;
+  margin: auto;
+  height: 400px;
+}
+
+.listWrapper {
+  /* background-color: blue; */
+  width: 941px;
+  height: 10px;
+  margin: auto;
+}
+
+.gameWrapper {
+  box-shadow: 2px 2px 10px grey;
+  /* background-color: red; */
+  width: 200px;
+  height: 375px;
+  margin: 10px 17px 0 18px;
+  float: left;
+  transition: 0.3s;
+}
+.gameWrapper:hover {
+  width: 205px;
+  height: 380px;
+  margin: 7.5px 14.5px 0px 15.5px;
+}
+.gameWrapper img {
+  width: 100%;
+  margin: 0 10px 0 0;
+}
+.gameWrapper h2 {
+  font-family: arial;
+  text-align: center;
+  padding: 10px 0 0 0;
+  font-size: 14pt;
+  margin: 0 0 5px 0;
+}
+.gameWrapper h2:hover, .gameWrapper p:hover {
+  cursor: default;
+}
+
+.gameInfo {
+  /* background-color: blue; */
+  margin: auto;
+  width: 170px;
+  padding: 0 5px 0 5px;
+}
+.gameWrapper .gameInfo img{
+  width: 25px;
+  /* padding: 0 0 0 17px; */
+  float: left;
+
+}
+.gameInfo p {
+  font-family: arial;
+  font-size: 12pt;
+  line-height: 30px;
+  display: block;
+}
+
+
+
+
+.beschrijving {
+  padding-top: 10px;
+  margin: auto;
+  width: 940px;
+  /* background-color: #24334c; */
+}
+.beschrijving p {
+  font-family: arial;
+  font-size: 15pt;
+  color: #24334c;
+  text-align: justify;
+  background-color: white;
+  margin: auto;
+}
+#imgArticle img {
+  width: 250px;
+  float: left;
+  margin: 0px 20px 50px 10px;
+  box-shadow: 0 0 25px black;
+}
+footer {
+  background-color: #24334c;
+  height: 50px;
+  /* border: 5px solid #24334c; */
+  width: 100%;
+  margin-top: 50px;
+
+  position: absolute;
+  bottom:-400px;
+}
+footer h1 {
+  font-family: arial black;
+  font-size: 10pt;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+}
